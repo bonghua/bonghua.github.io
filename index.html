@@ -71,6 +71,46 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-sql查询" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2021/11/27/sql%E6%9F%A5%E8%AF%A2/" class="article-date">
+  <time class="dt-published" datetime="2021-11-27T10:49:02.000Z" itemprop="datePublished">2021-11-27</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2021/11/27/sql%E6%9F%A5%E8%AF%A2/">sql查询</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>在使用 sql查询时发现，以单行处理成字段形式的方式组成数据</p>
+<p>FROM (SELECT 水质类别 ,count(<em>) 数量<br>FROM water<br>WHERE not 叶绿素 =’</em>‘<br>GROUP BY 水质类别<br>–HAVING 水质类别 IN(‘劣Ⅴ’,’Ⅴ’,’Ⅰ’)<br>ORDER BY 数量)</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2021/11/27/sql%E6%9F%A5%E8%AF%A2/" data-id="ckwhozn5i00000cwd1y6i2i7r" data-title="sql查询" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-chenge-first-blog" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2021/11/23/chenge-first-blog/" class="article-date">
@@ -190,6 +230,10 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2021/11/27/sql%E6%9F%A5%E8%AF%A2/">sql查询</a>
+          </li>
         
           <li>
             <a href="/2021/11/23/chenge-first-blog/">chenge-first-blog</a>
